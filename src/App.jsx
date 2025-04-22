@@ -17,11 +17,14 @@ export default function App() {
         <Navbar />
         <ScrollToTop />
         <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/products" element={<Products />} />
-          <Route path="/about" element={<AboutPage />} />
-          <Route path="/contact" element={<ContactPage />} />
-          <Route path="/products/:categoryName" element={<OneCategory />} />
+          <Route path="/3arbasat" element={<Home />} />
+          <Route path="/3arbasat/products" element={<Products />} />
+          <Route path="/3arbasat/about" element={<AboutPage />} />
+          <Route path="/3arbasat/contact" element={<ContactPage />} />
+          <Route
+            path="/3arbasat/products/:categoryName"
+            element={<OneCategory />}
+          />
           <Route path="*" element={<Navigate to="/" />} />
         </Routes>
         <Footer />

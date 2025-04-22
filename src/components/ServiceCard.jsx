@@ -23,7 +23,7 @@ export default function ServiceCard({ image, title, subtitle, description }) {
       </div>
       <div className="flex items-center justify-between w-full px-4 py-2 bg-(--color-primary) text-white rounded-b-lg shadow-md hover:bg-(--color-black)/90 hover:text-(--color-white) transition-all duration-300 cursor-pointer">
         <Link
-          to={`/products/${title}`}
+          to={`/3arbasat/products/${title}`}
           className="flex items-center justify-between w-full gap-2"
         >
           <span className="text-lg font-semibold">See Products</span>

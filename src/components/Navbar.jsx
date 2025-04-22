@@ -72,7 +72,7 @@ export default function Navbar() {
         <ul className="flex flex-col md:flex-row gap-5 md:gap-10 items-center justify-center p-5 md:p-0">
           <li className="cursor-pointer transition-all ease-in-out text-xl font-semibold duration-200 relative group">
             <Link
-              to="/"
+              to="/3arbasat"
               className={`hover:text-(--color-primary) ${
                 location.pathname === "/" ? "text-(--color-primary)" : ""
               }`}
@@ -84,7 +84,7 @@ export default function Navbar() {
           </li>
           <li className="cursor-pointer transition-all ease-in-out text-xl font-semibold duration-200 relative group">
             <Link
-              to="/products"
+              to="/3arbasat/products"
               className={`hover:text-(--color-primary) ${
                 location.pathname === "/products"
                   ? "text-(--color-primary)"
@@ -98,7 +98,7 @@ export default function Navbar() {
           </li>
           <li className="cursor-pointer transition-all ease-in-out text-xl font-semibold duration-200 relative group">
             <Link
-              to="/about"
+              to="/3arbasat/about"
               className={`hover:text-(--color-primary) ${
                 location.pathname === "/about" ? "text-(--color-primary)" : ""
               }`}
@@ -110,7 +110,7 @@ export default function Navbar() {
           </li>
           <li className="cursor-pointer transition-all ease-in-out text-xl font-semibold duration-200 relative group">
             <Link
-              to="/contact"
+              to="/3arbasat/contact"
               className={`hover:text-(--color-primary) ${
                 location.pathname === "/contact" ? "text-(--color-primary)" : ""
               }`}
