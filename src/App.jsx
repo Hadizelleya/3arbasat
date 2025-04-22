@@ -17,7 +17,7 @@ import OneCategory from "./components/OneCategory";
 
 export default function App() {
   return (
-    <Router basename="/3arbasat">
+    <Router>
       <AnimatePresence mode="popLayout">
         <div className="w-full">
           <Navbar />
@@ -28,7 +28,6 @@ export default function App() {
             <Route path="/about" element={<AboutPage />} />
             <Route path="/contact" element={<ContactPage />} />
             <Route path="/products/:categoryName" element={<OneCategory />} />
-            <Route path="*" element={<Navigate to="/" />} />
           </Routes>
           <Footer />
         </div>
